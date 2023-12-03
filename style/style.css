@@ -1,0 +1,150 @@
+@import url(global.css);
+
+body{
+    background-color: var(--white-02);
+}
+
+nav{
+    background-color: var(--black-01);
+    padding: 10px;
+    text-align: right;
+    cursor: default;
+}
+
+nav ul li{
+    margin: 10px 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav ul li > a{
+    color: var(--white-01);
+    padding: 5px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+nav ul li > a:hover{
+    background-color: var(--white-01);
+    color: var(--red-01);
+}
+
+header{
+    background-color: var(--black-01);
+    text-align: center;
+    cursor: default;
+    box-shadow: 1px 1px 6px;
+}
+
+header h1{
+    color: var(--red-02);
+    font-size: 50px;
+    font-family: 'halloween';
+}
+
+header p{
+    color: aliceblue;
+    font-weight: 500;
+    padding: 10px 0px 15px 0px;
+}
+
+aside{
+    background-color: var(--white-01);
+    max-width: 900px;
+    margin: 300px;
+    padding: 10px 20px;
+    margin: auto;
+    box-shadow: 1px 2px 8px;
+    cursor: default;
+}
+
+aside h1{
+    color: var(--red-02);
+    padding: 10px 0px;
+    font-family: 'halloween';
+    font-size: 2rem;
+}
+
+aside p{
+    line-height: 1.5rem;
+    text-indent: 30px;
+    margin: 1px;
+    padding: 0px 0px 10px 0px;
+    text-align: justify;
+}
+
+aside p > strong{
+    color: var(--red-03);
+}
+
+aside h2{
+    background-image: linear-gradient(to right, var(--lar-02), transparent);
+    color: var(--red-01);
+    margin-bottom: 10px;
+    padding: 0px 5px ;
+    font-family: 'halloween';
+    border-radius: 5px 0px 0px 5px;
+}
+
+aside h4{
+    color: var(--black-01);
+    padding: 15px 0px 25px 0px;
+}
+
+aside h4 > a{
+    color: var(--lar-02);
+    text-decoration: underline;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+aside h4 > a:hover{
+    color: var(--red-01);
+    text-decoration: none;
+}
+
+aside picture > img{
+    width: 100%;
+    box-shadow: 1px 1px 4px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+aside .video{
+    background-color: var(--red-02);
+    position: relative;
+    padding-bottom: 56.5%;
+    box-shadow: 1px 1px 4px;
+    border-radius: 5px;
+}
+
+aside .video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px;
+}
+
+footer{
+    background-color: var(--black-01);
+    color: var(--white-01);
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    cursor: default;
+    box-shadow: 1px 1px 6px;
+}
+
+footer strong{
+    color: var(--red-01);
+}
+
+footer .data{
+    font-weight: 300;
+    font-style: italic;
+    color: var(--white-02);
+    font-size: small;
+}
